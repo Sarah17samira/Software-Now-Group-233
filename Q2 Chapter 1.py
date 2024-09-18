@@ -23,8 +23,8 @@ for x in range(width):
         pixels[x, y] = (new_r, new_g, new_b)
         total_red_sum += new_r
 
-# Step 4: Save the new image
+
 image.save("chapter1out.jpg")
 
-# Step 5: Output the total sum of red values
+
 print(f"Total sum of red pixel values: {total_red_sum}")
