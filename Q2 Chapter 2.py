@@ -8,6 +8,6 @@ def process_string(s):
     print(f"Even numbers converted to ASCII: {even_numbers_ascii}")
     print(f"Uppercase letters converted to ASCII: {uppercase_letters_ascii}")
 
-# Example usage
+
 s = "56aAww1984sktr235270aYmn145ss785fsq31D0"
 process_string(s)
