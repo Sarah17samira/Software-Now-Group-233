@@ -1,7 +1,6 @@
 from PIL import Image
 import time
 
-# Step 1: Generate the number
 current_time = int(time.time())
 generated_number = (current_time % 100) + 50
 if generated_number % 2 == 0:
@@ -9,11 +8,9 @@ if generated_number % 2 == 0:
 
 print(f"Generated number: {generated_number}")
 
-# Step 2: Open the image
 image = Image.open("Chapter1.jpg")
 pixels = image.load()  # Get pixel data
 
-# Step 3: Modify the image
 width, height = image.size
 total_red_sum = 0
 
